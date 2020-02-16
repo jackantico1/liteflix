@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Base from './components/Base/Base';
 
-{/*
+/*
 
   App
   |__Header
@@ -17,7 +17,7 @@ import Base from './components/Base/Base';
   | |__Large cards
   | |__Button
 
-*/}
+*/
 
 function App() {
   return (
