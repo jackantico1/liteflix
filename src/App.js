@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Hero/>
-      <Collection/>
-      <Collection/>
+      <Collection collectionNum="collectionOne"/>
+      <Collection collectionNum="collectionTwo"/>
     </div>
   );
 }

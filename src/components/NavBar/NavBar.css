@@ -1,4 +1,19 @@
-.NavBar {
+.main {
+  height: 50px;
+  width: 600px;
+  background-color: deeppink;
+  display: flex;
   flex-direction: row;
-  justify-content: 'space-between';
+  justify-content: space-between;
+}
+
+.secondary {
+  height: 50px;
+  width: 600px;
+  background-color: deeppink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 365px;
+  margin-right: 165px;
 }

@@ -1,5 +1,21 @@
-.Collection {
+.collectionOne {
     background-color: green;
-    margin-left: 165px;
+    margin-left: 164px;
     margin-right: 165px;
+    margin-top: -64px;
+    height: 154px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .collectionTwo {
+    background-color: purple;
+    margin-left: 165.9px;
+    margin-right: 164.8px;
+    height: 509px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    justify-content: space-between;
   }
