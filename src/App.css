@@ -1,4 +1,5 @@
 .App {
-  margin: 0;
   background-color: black;
+  width: 1440px;
+  height: 1500px;
 }

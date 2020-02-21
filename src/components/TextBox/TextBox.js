@@ -6,7 +6,7 @@ class TextBox extends Component {
   render () {
     return (
       <div className="TextBox">
-          <h1>Hi!</h1>
+          <h1>{this.props.displayText}</h1>
       </div>
     );
   }
