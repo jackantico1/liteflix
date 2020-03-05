@@ -1,5 +1,4 @@
 .smallIcon{
-  background-color: green;
   height: 15px;
   width: 15.9px;
 }
@@ -23,4 +22,10 @@
   width: 15.9px;
   height: 15px;
   object-fit: contain;
-}  
+}
+
+.bell {
+  width: 14px;
+  height: 16px;
+  object-fit: contain;
+}
