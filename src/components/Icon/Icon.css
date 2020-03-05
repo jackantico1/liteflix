@@ -1,12 +1,26 @@
 .smallIcon{
-    background-color: green;
-    height: 15px;
-    width: 15.9px;
+  background-color: green;
+  height: 15px;
+  width: 15.9px;
+}
 
-  }
+.bigIcon {
+  height: 40px;
+  width: 40px;
+}
 
-  .bigIcon {
-    background-color: green;
-    height: 40px;
-    width: 40px;
-  }
+.oval {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.plus {
+  width: 15.9px;
+  height: 15px;
+  object-fit: contain;
+}  
