@@ -1,3 +1,4 @@
 .ButttonCollection {
-    background-color: purple;
+    display: flex;
+    flex-direction: row;
 }

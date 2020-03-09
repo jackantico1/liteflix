@@ -3,7 +3,7 @@ import './HeroInfo.css';
 import TextBox from '../TextBox/TextBox';
 import ButtonCollection from '../ButtonCollection/ButtonCollection';
 
-const mainItems = [{displayText: "  ORGINAL DE LITEFLIX"}, {displayText: "Kids at School"}, {displayText: "Ver temporadoa 1", subText: "Lorem ipsum dolor amet chicharrones dreamcatcher hammock bushwick hell of, ethical 3 wolf moon celiac neutra mumblecore four dollar toast. Slow-carb post-ironic kickstarter synth franzen."}];
+const mainItems = [{displayText: "ORGINAL DE LITEFLIX", type: "subtitle"}, {displayText: "Kids at School", type: "title"}, {displayText: "Ver temporadoa 1", subText: "Lorem ipsum dolor amet chicharrones dreamcatcher hammock bushwick hell of, ethical 3 wolf moon celiac neutra mumblecore four dollar toast. Slow-carb post-ironic kickstarter synth franzen.", type: "info"}];
 
 class HeroInfo extends Component {
 
