@@ -3,7 +3,8 @@ import './Hero.css';
 import Logo from '../Logo/Logo';
 import NavBar from '../NavBar/NavBar';
 import Icon from '../Icon/Icon';
-import HeroInfo from '../HeroInfo/HeroInfo'
+import HeroInfo from '../HeroInfo/HeroInfo';
+import UserMenu from '../UserMenu/UserMenu';
 
 class Hero extends Component {
 
@@ -15,6 +16,7 @@ class Hero extends Component {
           <NavBar type="main" className="main"/>
           <Icon type="bigIcon"/>
           <NavBar type="secondary" className="secondary"/>
+          <UserMenu/>
         </div>
         <HeroInfo/>
       </div>

@@ -12,6 +12,8 @@
     line-height: normal;
     letter-spacing: normal;
     color: white;
+    white-space: nowrap;
+    /* go one step further with max width */
 }
 
 p {

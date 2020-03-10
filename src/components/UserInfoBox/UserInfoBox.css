@@ -1,0 +1,36 @@
+.userInfoBox {
+    width: 111px;
+    height: 37px;
+    margin-top: 11px;
+    margin-left: 10px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.coloredOval {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background-color: #9b9b9b;
+}
+
+.uncoloredOval {
+    width: 25px;
+    height: 25px;
+    background-color: #9b9b9b;
+}
+
+.p {
+    width: 65px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}

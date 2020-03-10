@@ -1,0 +1,29 @@
+.userMenu {
+    width: 130px;
+    height: 218px;
+    margin-top: 71px;
+    margin-left: 1145px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.userMenuLabel {
+    width: 84px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.blackLine {
+    width: 111px;
+    height: 2px;
+    border: solid 1px #cccccc;
+    background-color: black;
+}
