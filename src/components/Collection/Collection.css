@@ -1,7 +1,4 @@
 .collectionOne {
-    margin-left: 164px;
-    margin-right: 165px;
-    margin-top: -64px;
     height: 154px;
     display: flex;
     flex-direction: row;
@@ -9,11 +6,50 @@
   }
 
   .collectionTwo {
-    margin-left: 165.9px;
-    margin-right: 164.8px;
     height: 509px;
     display: flex;
     flex-direction: row;
-    margin-top: 75px;
     justify-content: space-between;
+  }
+
+  .collectionContainerOne {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: -84px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collectionContainerTwo {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collectionTitleOne {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+
+  .collectionTitleTwo {
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
   }

@@ -6,18 +6,35 @@ import Model from './components/Model/Model';
 
 class App extends Component {
 
+  state = {
+    showUserMenu: false,
+    showModel: false
+  }
+
   render () {
 
-    //This is where we need to use state, I just don't know how to use it yet
+    const handleUserMenuClicked = () => {
+      this.setState((state) => ({
+        showUserMenu: !this.state.showUserMenu,
+        showModel: false
+      }));
+    };
+
+    // const handleAddButtonClicked = () => {
+    //   this.setState((state) => ({
+    //     showModel: true
+    //   }));
+    // };
+
     let HiddenItem;
-    if ((1 === 2)) { 
+    if (this.state.showModel) { 
       HiddenItem = <Model/>
     }
 
     return (
       <div className="App">
         {HiddenItem}
-        <Hero showUserMenu={false}/>
+        <Hero showUserMenu={this.state.showUserMenu} handleUserMenuClicked={handleUserMenuClicked}/>
         <Collection collectionNum="collectionOne"/>
         <Collection collectionNum="collectionTwo"/>
       </div>

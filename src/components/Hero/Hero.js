@@ -10,6 +10,8 @@ class Hero extends Component {
 
   render () {
 
+
+
     let HiddenItem;
     if (this.props.showUserMenu) {
       HiddenItem = <UserMenu/>
@@ -21,7 +23,7 @@ class Hero extends Component {
           <Logo/>
           <NavBar type="main" className="main"/>
           <Icon type="bigIcon"/>
-          <NavBar type="secondary" className="secondary"/>
+          <NavBar type="secondary" className="secondary" handleUserMenuClicked={this.props.handleUserMenuClicked}/>
           {HiddenItem}
         </div>
         <HeroInfo/>

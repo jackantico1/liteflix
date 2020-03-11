@@ -17,7 +17,7 @@ class NavBar extends Component {
       items = secondaryItems.map(item=><NavItem {...item}/>)
       items.push(<Icon type="bellIcon"/>)
       items.push(<Icon type="userIcon"/>)
-      items.push(<Icon type="arrowIcon"/>)
+      items.push(<Icon type="arrowIcon" handleUserMenuClicked={this.props.handleUserMenuClicked}/>)
     }
 
     return (

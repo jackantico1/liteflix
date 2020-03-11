@@ -6,7 +6,7 @@ class Card extends Component {
   render () {
     return (
       <div className={this.props.cardType}>
-          <h1>Hi!</h1>
+        
       </div>
     );
   }

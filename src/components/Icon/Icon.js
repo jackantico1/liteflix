@@ -9,6 +9,8 @@ class Icon extends Component {
 
   render () {
 
+
+
     let icon = null
     if (this.props.type === "plusIcon") {
       icon = <div className={this.props.type}>
@@ -30,10 +32,9 @@ class Icon extends Component {
       </div>;
     } else if (this.props.type === "arrowIcon") {
       icon = <div className={this.props.type}>
-        <img src={ArrowIcon} alt="arrow" className="arrow">
+        <img src={ArrowIcon} alt="arrow" className="arrow" onClick={this.props.handleUserMenuClicked}>
 
         </img>
-        <button onClick>Click Me!</button>
       </div>;
     }
 
