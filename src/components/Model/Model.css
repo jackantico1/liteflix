@@ -1,0 +1,16 @@
+.model {
+    width: 730px;
+    height: 354px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 355px;
+    margin-top: 575px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerForInfoInputs {
+    display: flex;
+    flex-direction: row;
+}

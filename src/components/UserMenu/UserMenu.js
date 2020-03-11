@@ -14,6 +14,7 @@ class UserMenu extends Component {
     items.push(<p className="userMenuLabel">Ayuda</p>)
     items.push(<div className="blackLine"></div>)
     items.push(<p className="userMenuLabel">Logout</p>)
+    items.push(<div className="whiteHouse"/>)
 
     return (
         <div className="userMenu">

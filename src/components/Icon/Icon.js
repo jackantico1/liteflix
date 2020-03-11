@@ -33,6 +33,7 @@ class Icon extends Component {
         <img src={ArrowIcon} alt="arrow" className="arrow">
 
         </img>
+        <button onClick>Click Me!</button>
       </div>;
     }
 

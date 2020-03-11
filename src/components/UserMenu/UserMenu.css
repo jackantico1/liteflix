@@ -27,3 +27,15 @@
     border: solid 1px #cccccc;
     background-color: black;
 }
+
+/* This white house thing isn't working */
+
+/* .whiteHouse {
+    width: 130px;
+    height: 218px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 1232px;
+    position: absolute;
+} */

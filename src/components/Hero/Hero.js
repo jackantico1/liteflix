@@ -9,6 +9,12 @@ import UserMenu from '../UserMenu/UserMenu';
 class Hero extends Component {
 
   render () {
+
+    let HiddenItem;
+    if (this.props.showUserMenu) {
+      HiddenItem = <UserMenu/>
+    }
+
     return (
       <div className="Hero">
         <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -16,9 +22,10 @@ class Hero extends Component {
           <NavBar type="main" className="main"/>
           <Icon type="bigIcon"/>
           <NavBar type="secondary" className="secondary"/>
-          <UserMenu/>
+          {HiddenItem}
         </div>
         <HeroInfo/>
+        {/* Use opacity */}
       </div>
     );
   }
