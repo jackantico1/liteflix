@@ -6,6 +6,7 @@
     margin-right: 30px;
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .img {
@@ -16,7 +17,7 @@
     width: 16px;
 }
 
-.p {
+.pActionButton {
     width: 60px;
     height: 19px;
     margin-left: 6px;

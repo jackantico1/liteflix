@@ -11,12 +11,12 @@ class ActionButton extends Component {
     if (this.props.type === "first") {
       actionButton = <div className="actionButton">
           <img src={PlayIcon} alt="+" className="img"/>
-          <p className="p">{this.props.displayText}</p>
+          <p className="pActionButton">{this.props.displayText}</p>
       </div>
     } else {
       actionButton = <div className="actionButton">
         <img src={PlusIcon} alt="+" className="img"/>
-        <p className="p">{this.props.displayText}</p>
+        <p className="pActionButton">{this.props.displayText}</p>
       </div>
     }
 

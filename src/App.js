@@ -8,8 +8,9 @@ class App extends Component {
 
   render () {
 
+    //This is where we need to use state, I just don't know how to use it yet
     let HiddenItem;
-    if ((1 === 2)) {
+    if ((1 === 2)) { 
       HiddenItem = <Model/>
     }
 

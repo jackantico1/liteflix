@@ -1,5 +1,4 @@
 .subtitle {
-    background-color: purple;
     height: 29px;
     font-family: Montserrat;
     font-size: 12px;
@@ -8,11 +7,10 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--white);
+    color: white;
 }
 
 .title {
-    background-color: purple;
     width: 392px;
     height: 180px;
     font-family: RobotoSlab;
@@ -22,7 +20,7 @@
     font-style: normal;
     line-height: 0.82;
     letter-spacing: normal;
-    color: var(--white);
+    color: white;
 }
 
 h1 {
@@ -30,7 +28,6 @@ h1 {
 }
 
 .info {
-    background-color: purple;
     width: 537px;
     height: 168px;
     font-family: Montserrat;
@@ -40,5 +37,5 @@ h1 {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--white); 
+    color: white; 
 }
