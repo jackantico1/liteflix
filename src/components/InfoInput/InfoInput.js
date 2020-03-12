@@ -8,7 +8,8 @@ class InfoInput extends Component {
     return (
         <div className="infoInput">
             <p>{this.props.displayText}</p>
-            <h3>{this.props.inputtedInfo}</h3>
+            <h3>Enter info here</h3>
+            <div className="line"/>
         </div>
     );
   }

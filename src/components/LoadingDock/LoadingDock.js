@@ -7,6 +7,7 @@ class LoadingDock extends Component {
 
     return (
         <div className="loadingDock">
+          <p className="pLoadingDock">Agregar archivo o arrastrarlo y soltarlo aquí</p>
         </div>
     );
   }

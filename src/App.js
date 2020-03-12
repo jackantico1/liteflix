@@ -8,7 +8,7 @@ class App extends Component {
 
   state = {
     showUserMenu: false,
-    showModel: false
+    showModel: true,
   }
 
   render () {
