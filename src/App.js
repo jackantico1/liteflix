@@ -8,7 +8,7 @@ class App extends Component {
 
   state = {
     showUserMenu: false,
-    showModel: true,
+    showModel: false,
   }
 
   render () {
@@ -20,11 +20,12 @@ class App extends Component {
       }));
     };
 
-    // const handleAddButtonClicked = () => {
-    //   this.setState((state) => ({
-    //     showModel: true
-    //   }));
-    // };
+    const handlePlusClicked = () => {
+      this.setState((state) => ({
+        showUserMenu: false,
+        showModel: !this.state.showModel
+      }));
+    };
 
     let HiddenItem;
     if (this.state.showModel) { 
@@ -34,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         {HiddenItem}
-        <Hero showUserMenu={this.state.showUserMenu} handleUserMenuClicked={handleUserMenuClicked}/>
+        <Hero showUserMenu={this.state.showUserMenu} handleUserMenuClicked={handleUserMenuClicked} handlePlusClicked={handlePlusClicked}/>
         <Collection collectionNum="collectionOne"/>
         <Collection collectionNum="collectionTwo"/>
       </div>

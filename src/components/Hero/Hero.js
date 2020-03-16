@@ -21,7 +21,7 @@ class Hero extends Component {
       <div className="Hero">
         <div style={{display: 'flex', flexDirection: 'row'}}>
           <Logo/>
-          <NavBar type="main" className="main"/>
+          <NavBar type="main" className="main" handlePlusClicked={this.props.handlePlusClicked}/>
           <Icon type="bigIcon"/>
           <NavBar type="secondary" className="secondary" handleUserMenuClicked={this.props.handleUserMenuClicked}/>
           {HiddenItem}

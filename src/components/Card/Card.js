@@ -6,7 +6,7 @@ class Card extends Component {
   render () {
     return (
       <div className={this.props.cardType}>
-        
+        <img src={this.props.imageSource} alt="Title" className="image"/>
       </div>
     );
   }

@@ -1,11 +1,17 @@
 .smallCard {
-    background-color: yellow;
     width: 23%;
     height: 155px;
+    background-color: aqua;
   }
 
   .largeCard {
-    background-color: red;
     width: 23%;
     height: 507px;
+    background-color: red;
+  }
+
+  .image {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
   }
